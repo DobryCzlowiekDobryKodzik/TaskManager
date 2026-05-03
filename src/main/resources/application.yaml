@@ -1,3 +1,9 @@
 spring:
   application:
     name: TaskManager
+  datasource:
+    url: jdbc:mysql://localhost:3306/task-manaager-db?createDatabaseIfNotExist=true
+    username: root
+    password: root
+  jpa:
+    show-sql: true
